@@ -13,6 +13,6 @@ This application was developed on Visual Studio 2015 (Professional) and brings t
 The generated application is dependent on the modalities specified at the very top of the code. Modality number identifiers are included in the comments.
 The code itself could definitely be more efficient (especially for the visual display function), but specificities had to be accommodated (and deadlines met). It does, however, work as long as chai3d is installed correctly (follow instructions on their webpage), omega 7 drivers and SDK are installed, JACO API is installed, and the tactor SDK is installed correctly.
 
-THe serial library used is from an external source (Arduino forum). 
+The serial library used is from an external source (Arduino forum). 
 Arduino codes used to program sensor are included.
 Arduino code used to program the peltier module is included. For this module the display is built from two peltier devices (hot and cold) and a TMP35 temperature sensor. A PID controller is implemented using this PID library: https://playground.arduino.cc/Code/PIDLibrary/ (but coefficients will need further tuning).
