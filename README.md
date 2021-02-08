@@ -19,4 +19,5 @@ Arduino code used to program the peltier module is included. For this module the
 
 Notes:
 - All dll files should be in the release folder for the application
+- Only essential code files were included from the VS folder due to size and number limits. All libraries and API's should be installed and located in the visual studio project properties appropriately
 
