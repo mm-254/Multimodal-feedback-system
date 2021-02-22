@@ -21,4 +21,5 @@ Notes:
 - All dll files should be in the release folder for the application
 - Only essential code files were included from the VS folder due to size and number limits. All libraries and API's should be installed and located in the visual studio project properties appropriately
 - Directories need to be set up appropriately. I started with the CHAI3D instructions so that was how my directories were set up. Simply downloading the folder and running it is not possible in this case (sorry, I tried uploading the entire folder but its a no go)
+- -Main source code in Sources folder
 
