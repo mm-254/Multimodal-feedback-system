@@ -15,7 +15,7 @@ The code itself could definitely be more efficient (especially for the visual di
 
 The serial library used is from an external source (Arduino forum). 
 Arduino codes used to program sensor are included.
-Arduino code used to program the peltier module is included. For this module the display is built from two peltier devices (hot and cold) and a TMP35 temperature sensor. A PID controller is implemented using this PID library: https://playground.arduino.cc/Code/PIDLibrary/ (but coefficients will need further tuning).
+Arduino code used to program the peltier module is included. For this module the display is built from two peltier devices (hot and cold) and a TMP35 temperature sensor. A PID controller is implemented using this PID library: https://playground.arduino.cc/Code/PIDLibrary/ (but coefficients will need further tuning). More information about this is included in a separate repository titled Thermal feedback display on Arduino
 
 Notes:
 - All dll files should be in the release folder for the application
