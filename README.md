@@ -4,7 +4,7 @@ A multimodal feedback system for a JACO assistive robot
 This application was developed on Visual Studio 2015 (Professional) and brings together the CHAI3D library, JACO API, Arduino sensors and a peltier device (thermal display), and the SDK for the tactor device used in this project. There are many feedback specificities to the original application worked on here, but in a more general view, it does the following in multiple threads:
 1) Implements control of a JACO robot using a Force dimension Omega 7 Haptic device, with modes changed using the gripper switch on the Omega
 2) Retrieves information from an MLX90614 non-contact temperature sensor: https://www.sparkfun.com/products/10740 and a non-contact liquid level sensor: https://www.dfrobot.com/product-1493.html via serial communication
-3) Sends temperature information to a peltier module connected to an Arduino for thermal feedback
+3) Sends temperature information to a peltier module connected to an Arduino micocontroller for thermal feedback
 4) Renders weight feedback (input manually, no sensor) and an indication of liquid level to the haptic device
 5) Implements keyboard toggle on/off of the feedback properties
 6) Renders a visual display of properties (numerical and color change)
